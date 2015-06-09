@@ -1,0 +1,238 @@
+/*
+ 	Colors:
+ 	Blue: #054659;
+ 	Light Blue: #66B6FF;
+ 	Orange: #E86301;
+ 	Green: #009900;
+ 	Red: #CE0000;
+ 	Grey: #999999;
+ 	Lightgrey: #D2D2D2;
+*/
+
+html,
+body {
+	font-family: 'Pluto', Verdana, sans-serif;
+	color: #054659;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Verb', Arial, sans-serif;
+	font-weight: 700;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.text-wrap {
+	width: 460px;
+	margin: auto;
+}
+
+.text--green {
+	color: #009900;
+}
+
+.text--red {
+	color: #CE0000;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.header--logo {
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 16px;
+}
+
+.headline-lg {
+	font-size: 3rem;
+}
+
+.headline-sm {
+	font-size: 2rem;
+}
+
+.displace--top {
+	position: relative;
+	top: -110px;
+}
+
+.jumbotron--blue {
+	border-bottom: 4px solid #66B6FF;
+	box-shadow: 0px 6px 3px -3px rgb(153, 153, 153);
+
+	background-color: #054659;
+
+	background: url('../img/bg-blue.jpg');
+
+	color: #FFFFFF;
+
+	padding-top: 64px;
+	height: 320px;
+}
+
+.body--main {
+	background: url('../img/bg-white.jpg');
+	border-bottom: 4px solid #054659;
+	box-shadow: 0px 6px 3px -3px rgb(153, 153, 153);
+}
+
+.box--gray {
+	background: url('../img/bg-gray.jpg');
+	border-radius: 2px;
+	box-shadow: 0px 1px 0px 0px #D2D2D2;
+	padding: 22px 20px;
+}
+
+.container,
+.ask-field {
+	border-radius: 3px;
+	border: 1px solid #999999;
+	box-shadow: 0px 2px 3px 0px rgba(153,153,153,.6) inset;
+}
+
+.ask {	
+	margin: auto;
+	width: 500px;
+}
+
+.ask-field {
+	display: block;
+	padding: 20px 21px;
+	width: 92%;
+	margin-bottom: 22px;
+}
+
+.border--green {
+	border: 1px solid #009900;
+	box-shadow: 0px 0px 3px 1px #009900 inset;
+	outline: none;
+}
+
+.border--red {
+	border: 1px solid #CE0000;
+	box-shadow: 0px 0px 3px 1px #CE0000 inset;
+	outline: none;
+}
+
+.indicator {
+	font-size: .85rem;
+}
+
+.indicator p {
+	width: 190px;
+	display: inline-block;
+	
+	margin: 1em 0 1em 14px;
+}
+
+.light--green,
+.light--red {
+	background-color: #FFFFFF;
+	height: 34px;
+	width: 35px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px -1px rgba(153,153,153,.6),
+				0px -1px 2px -1px rgba(153,153,153,.6) inset;
+	display: inline-block;
+	padding-top: 7px;
+	padding-left: 5px;
+}
+
+.light--green::before {
+	content: url('../img/green-light.png');
+}
+
+.light--red::before {
+	content: url('../img/red-light.png');
+}
+
+.btn--orange {
+	background-color: #E86301;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 4px #000000;
+	font-size: 1.125rem;
+	padding: 14px 55px;
+	border-radius: 3px;
+	border: 1px solid #893A00;
+	box-shadow: 0px 1px 2px 0px rgba(255,255,255,.7) inset,
+				0px 2px 3px 0px rgba(153,153,153,.6);
+}
+
+.sidebar {
+	width: 180px;
+	height: 630px;
+	z-index: 99999;
+	right: 200px;
+}
+
+
+.container {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 18px 13px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+.container p {
+	margin: 0;
+}
+
+.up-vote {
+	text-align: right;
+}
+
+.up-vote a {
+	color: #E86301;
+}
+
+.up-vote a:visited {
+	color: #E86301;
+}
+
+.up-vote a:hover {
+	text-decoration: none;
+}
+
+.info {
+	margin-top: 59px;
+}
+
+.footer {
+	font-size: .8rem;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+.nav--links {
+	text-align: center;
+}
+
+.nav--links li {
+	display: inline-block;
+	padding: 28px;
+}
+
+.nav--links a {
+	color: #054659;
+	text-decoration: none;
+}
+
+.nav--links a:visited {
+	color: #054659;
+}
+
+.nav--links a:hover {
+	text-decoration: underline;
+}
