@@ -55,10 +55,15 @@ ul {
 
 .headline-lg {
 	font-size: 3rem;
+	margin: 19px 0;
 }
 
 .headline-sm {
 	font-size: 2rem;
+}
+
+.sub-headline {
+	margin: 0;
 }
 
 .displace--top {
@@ -68,22 +73,20 @@ ul {
 
 .jumbotron--blue {
 	border-bottom: 4px solid #66B6FF;
-	box-shadow: 0px 6px 3px -3px rgb(153, 153, 153);
-
+	box-shadow: 0px 6px 3px -3px rgba(153,153,153,.6);
 	background-color: #054659;
-
 	background: url('../img/bg-blue.jpg');
-
 	color: #FFFFFF;
-
 	padding-top: 64px;
 	height: 320px;
 }
 
 .body--main {
 	background: url('../img/bg-white.jpg');
+	margin-top: 5px;
 	border-bottom: 4px solid #054659;
-	box-shadow: 0px 6px 3px -3px rgb(153, 153, 153);
+	padding-bottom: 320px;
+	box-shadow: 0px 5px 3px -3px rgba(153,153,153,.6);
 }
 
 .box--gray {
@@ -212,7 +215,8 @@ ul {
 .footer {
 	font-size: .8rem;
 	font-weight: bold;
-	background-color: #FFFFFF;
+	background: #FFFFFF;
+	margin: 10px;
 }
 
 .nav--links {
@@ -221,7 +225,7 @@ ul {
 
 .nav--links li {
 	display: inline-block;
-	padding: 28px;
+	padding: 18px;
 }
 
 .nav--links a {
